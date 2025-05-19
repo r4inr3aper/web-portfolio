@@ -83,7 +83,7 @@ export function Header() {
       <section className="w-full flex gap-4 justify-start mb-6 p-2">
         <img
           src="https://media.licdn.com/dms/image/v2/D4D03AQGJ73od6BV4ow/profile-displayphoto-shrink_800_800/B4DZaXFO2fHwAc-/0/1746291464667?e=1752710400&v=beta&t=8OrR72_gLD5px8L9ize5ZEgpAfYkySx5I0QU1klVlzc"
-          alt="Ashish"
+          alt="bedanta"
           width={56}
           height={56}
           className="rounded-full w-14 h-14 object-cover transition-transform hover:scale-105 duration-300"
