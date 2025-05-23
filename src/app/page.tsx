@@ -7,8 +7,8 @@ export default function Home() {
       <section className="w-full flex flex-col justify-start p-[0.4rem] mb-8">
         <h2 className="text-xl sm:text-2xl font-medium mb-4">Hello ~</h2>
         <p className="mb-4 text-sm sm:text-base">
-          21 y/o semicolon dev trying to build better web interfaces. taught by
-          the web itself, I love php but I write typescript, I love mern stack
+          22 y/o semicolon dev trying to build better web interfaces. taught by
+          the web itself, I write typescript, I love mern stack
           but I use the{" "}
           <a
             href="https://create.t3.gg/"

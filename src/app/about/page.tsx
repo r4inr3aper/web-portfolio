@@ -4,9 +4,9 @@ import { PageTransition } from "@/components/animation/page-transition";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 export default function About() {
-  const [expandedExperiences, setExpandedExperiences] = useState({});
+  const [expandedExperiences, setExpandedExperiences] = useState<Record<string, boolean>>({});
 
-  const toggleExpand = (id) => {
+  const toggleExpand = (id: string) => {
     setExpandedExperiences(prev => ({
       ...prev,
       [id]: !prev[id]

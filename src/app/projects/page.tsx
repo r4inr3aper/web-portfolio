@@ -51,7 +51,7 @@ export default function Projects() {
     },
   ];
 
-  const [hoveredProject, setHoveredProject] = useState(null);
+  const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   return (
     <PageTransition>
