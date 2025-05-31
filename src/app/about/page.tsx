@@ -44,13 +44,13 @@ export default function About() {
       role: "Full Stack Developer Intern",
       period: "Dec 2024 - Apr 2025",
       logo: "/procurpal.png",
-      description: "Building modern web applications with React, TypeScript and Node.js. Working on both frontend and backend systems, implementing database solutions and API integrations.",
+      description: "Worked on building an E-Auction Platform with Next.js, TypeScript and Node.js. Working on both frontend and backend systems, implementing database solutions and API integrations.",
       achievements: [
-        "Developed and maintained key features for the company's flagship procurement platform",
-        "Implemented responsive UI components using React and Tailwind CSS",
-        "Architected RESTful APIs using Node.js and Express",
-        "Optimized database queries resulting in 30% faster page load times",
-        "Collaborated with design team to implement pixel-perfect UI/UX designs"
+        "Built and optimized dynamic dashboards and multi-step auction workflows using modern frontend frameworks.",
+        "Integrated key modules (eAuction, RFX, QSign) & implemented features like data export, filters and user authentication flows.",
+        "Improved performance and user experience of the RFX module (built with Serverless) by resolving routing issues, enhancing form validations, and refining module interactions.",
+        "Collaborated with design team to implement pixel-perfect UI/UX designs.",
+        "Participated in agile sprints, regularly presenting progress and collaborating with cross-functional teams to deliver project milestones."
       ]
     },
     {
@@ -61,11 +61,11 @@ export default function About() {
       logo: "https://students.engineering.asu.edu/wp-content/uploads/2023/06/GDSC-Crop.png",
       description: "Contributed to various projects and events organized by the club. Engaged in community building and knowledge sharing sessions. Actively participated in workshops and hackathons.",
       achievements: [
-        "Led a team of 5 developers for the club's flagship web application project",
-        "Organized 3 technical workshops on React.js and modern frontend development",
-        "Mentored junior members in web development fundamentals",
-        "Contributed to open-source projects under GDSC initiatives",
-        "Represented the club at regional hackathons and tech conferences"
+        "Organized and led technical workshops like Web Blitz 4.0 with 200+ attendees.",
+        "Led a development team, conducted code reviews and resolved front-end and back-end issues to ensure smooth project execution.",
+        "Mentored junior members in web development and project management best practices.",
+        "Collaborated with cross-functional teams to plan and execute successful tech events and hackathons.",
+        "Editorial Team Member: Authored 15+ contents and invitations.",
       ]
     }
   ];
@@ -77,23 +77,22 @@ export default function About() {
         <h2 className="text-xl sm:text-2xl font-medium mb-6">About ~</h2>
         <div className="space-y-4">
           <p className="text-sm sm:text-base leading-relaxed">
-            Crying over college assignments, trying to hit the gym consistently, and
+            Crying over college assignments, trying to hit the gym consistently and
             trying to get familiar with{" "}
-            <mark className="text-[hsla(32,98%,83%,.9)] bg-stone-800/50 px-1.5 py-0.5 font-thin rounded">
+            <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
               dsa
-            </mark>, and{" "}
-            <mark className="text-[hsla(32,98%,83%,.9)] bg-stone-800/50 px-1.5 py-0.5 font-thin rounded">
-              java (oops)
+            </mark>{" "}
+            and{" "}
+            <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
+              cpp (oops)
             </mark>.
           </p>
           <p className="text-sm sm:text-base leading-relaxed">
             I&apos;m confident enough with my web dev skills right now (still a noob
-            though). Trying to learn swift/swiftUI to build a macos menubar app
-            while completely ignoring my end semester exams.
+            though). Lately, I’ve been fascinated by GenAI and experimenting with it to bring fresh ideas to life.
           </p>
           <p className="text-sm sm:text-base leading-relaxed">
-            Apart from all this, I&apos;m also trying to write more content and
-            craft beautiful animated ui components.
+            Also exploring system design to build scalable apps and focusing on writing clean, production-level code.
           </p>
         </div>
       </section>

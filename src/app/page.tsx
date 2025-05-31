@@ -8,8 +8,7 @@ export default function Home() {
         <h2 className="text-xl sm:text-2xl font-medium mb-4">Hello ~</h2>
         <p className="mb-4 text-sm sm:text-base">
           22 y/o semicolon dev trying to build better web interfaces. taught by
-          the web itself, I write typescript, I love mern stack
-          but I use the{" "}
+          the web itself, I write typescript, I love mern stack but I use the{" "}
           <a
             href="https://create.t3.gg/"
             className="text-white hover:opacity-80 transition-opacity underline"
@@ -18,46 +17,53 @@ export default function Home() {
           </a>{" "}
           ~ cus{" "}
           <a
-            href="https://twitter.com/t3dotgg"
+            href="https://twitter.com/theo"
             className="text-white hover:opacity-80 transition-opacity underline"
           >
             theo
           </a>{" "}
           said{" "}
           <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
-            typesaftey isn&apos;t optional
+            typesafety isn&apos;t optional
           </mark>{" "}
           apparently &amp; btw I don&apos;t use neovim.
         </p>
         <p className="mb-4 text-sm sm:text-base">
-          I&apos;m a student, a fullstack dev, oss fanboy, techical writer,
-          shitpost creator, hackathon grinder, and somewhat of a gamer as well.
-          I can write typesript, python, go, and I&apos;m currently being forced
-          to learn c &amp; cpp for my uni courses.
+          I&apos;m a fullstack dev, student at{" "}
+          <a
+            href="https://nits.ac.in/"
+            className="text-white hover:opacity-80 transition-opacity underline"
+          >
+            NIT
+          </a>
+            , oasis fanboy, technical writer (when inspiration hits), shitposter,
+            hackathon grinder and currently on{" "}
+            <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
+              Leetcode
+            </mark>
+            {" "} grind too. I can write typescript, python, cpp. I enjoy sneaking{" "}
+          <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
+            GraphQL{" "}
+          </mark>{" "}
+          into projects whenever I can ~ I just like when things are structured
+          but flexible.{" "}
+          <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
+            System design?{" "}
+          </mark>{" "}
+          Love it. Nothing beats the thrill of watching complex parts fall into
+          place.
         </p>
         <p className="mb-0 text-sm sm:text-base">
           I like minimalism and simplicity and I try to reflect that in my works
-          as well. I often jam to music while working usually to genres like pop,
-          synth, glitchcore, hyperpop, rock, and jpop. Meaningful and deep
+          as well. I often jam to music while working. Meaningful and deep
           lyrics is what I look for in songs. My all time fav artist is{" "}
           <a
             href="https://images.genius.com/c17eacd4676137d5780d7ec97b48d6d1.816x816x1.jpg"
             className="text-white hover:opacity-80 transition-opacity underline"
           >
-            EDEN
+            Louis Tomlinson
           </a>
-          . According to{" "}
-          <a
-            href="https://www.last.fm/user/asheeshh"
-            className="text-white hover:opacity-80 transition-opacity underline"
-          >
-            last.fm
-          </a>
-          , I have listened to his songs a total of{" "}
-          <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
-            5157
-          </mark>{" "}
-          times as of now. Apart from this I also like playing FPS games like{" "}
+          . Apart from this I also like playing FPS games like{" "}
           <a
             href="https://playvalorant.com"
             className="text-white hover:opacity-80 transition-opacity underline"
@@ -68,7 +74,7 @@ export default function Home() {
           <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
             weights
           </mark>
-          , and binge watching shows on{" "}
+          , clutching in Table Tennis and binge watching shows on{" "}
           <a
             href="https://netflix.com"
             className="text-white hover:opacity-80 transition-opacity underline"
@@ -91,7 +97,7 @@ export default function Home() {
             </p>
             <p className="mb-0 leading-none text-sm sm:text-base">
               <a
-                href="https://images.genius.com/c17eacd4676137d5780d7ec97b48d6d1.816x816x1.jpg"
+                href="https://open.spotify.com/track/5NvOZCjZaGGGL597exlQWv?si=14699d9785be45a7"
                 target="_blank"
                 rel="noreferrer"
                 className="no-underline text-white hover:opacity-80 transition-opacity"
@@ -107,7 +113,7 @@ export default function Home() {
               width={128}
               height={128}
               className="w-full h-full object-cover"
-              unoptimized // Remove this line if you want Next.js to optimize the image
+              unoptimized
             />
           </div>
         </div>
