@@ -11,7 +11,7 @@ export default function Projects() {
       description:
         "Developed a scalable game feature with photo uploads, letter collection and robust backend handling over 1.3M+ API requests.",
       image:
-        "https://assets-global.website-files.com/640f99c52b298c7753381c38/64227fdf55b3ddef95c18e5c_63eea96ea535cc41b88083ef_KkLQmdi5g7hcjsceNvVeC0XZ4B78p1wJWwRf2kHmgQE8vcYNhQeswTYpe06Pq_r3vRFMi6RDoslKP3r2XQXUtr6wq-O_W4ROZQF0mCtKlJ183XcHxcVKBfOHU9I8k9BFgrGnSgU5jJE2QrvZVus6BUI.png",
+        "/incand.png",
       imageAlt: "Screenshot of portfolio website homepage with dark theme",
       techStack: [
         "NextJS",
@@ -34,7 +34,7 @@ export default function Projects() {
       description:
         "Fully functional e-commerce platform with payment integration, user authentication, and admin dashboard.",
       image:
-        "https://assets-global.website-files.com/640f99c52b298c7753381c38/64227fdf55b3ddef95c18e5c_63eea96ea535cc41b88083ef_KkLQmdi5g7hcjsceNvVeC0XZ4B78p1wJWwRf2kHmgQE8vcYNhQeswTYpe06Pq_r3vRFMi6RDoslKP3r2XQXUtr6wq-O_W4ROZQF0mCtKlJ183XcHxcVKBfOHU9I8k9BFgrGnSgU5jJE2QrvZVus6BUI.png",
+        "/flick.png",
       imageAlt: "E-commerce platform product listing page",
       techStack: [
         "React.js",
@@ -53,7 +53,7 @@ export default function Projects() {
       description:
         "Tech fest site built for high traffic. Developed complex GSAP animations, integrated multiple APIs and handled 1M+ backend requests for a seamless user experience.",
       image:
-        "https://assets-global.website-files.com/640f99c52b298c7753381c38/64227fdf55b3ddef95c18e5c_63eea96ea535cc41b88083ef_KkLQmdi5g7hcjsceNvVeC0XZ4B78p1wJWwRf2kHmgQE8vcYNhQeswTYpe06Pq_r3vRFMi6RDoslKP3r2XQXUtr6wq-O_W4ROZQF0mCtKlJ183XcHxcVKBfOHU9I8k9BFgrGnSgU5jJE2QrvZVus6BUI.png",
+        "/tecnoesis.png",
       imageAlt: "AI chat application interface showing conversation",
       techStack: [
         "NextJS",
