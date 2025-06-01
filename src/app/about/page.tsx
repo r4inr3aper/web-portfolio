@@ -51,7 +51,8 @@ export default function About() {
         "Improved performance and user experience of the RFX module (built with Serverless) by resolving routing issues, enhancing form validations, and refining module interactions.",
         "Collaborated with design team to implement pixel-perfect UI/UX designs.",
         "Participated in agile sprints, regularly presenting progress and collaborating with cross-functional teams to deliver project milestones."
-      ]
+      ],
+      link: "https://procurpal.in/"
     },
     {
       id: "gdsc",
@@ -66,7 +67,8 @@ export default function About() {
         "Mentored junior members in web development and project management best practices.",
         "Collaborated with cross-functional teams to plan and execute successful tech events and hackathons.",
         "Editorial Team Member: Authored 15+ contents and invitations.",
-      ]
+      ],
+      link: "https://gdscnits.in/"
     }
   ];
 
@@ -115,7 +117,15 @@ export default function About() {
               />
             </div>
             <div className="flex-grow">
-              <h3 className="text-xl font-medium">National Institute of Technology, Silchar</h3>
+                <h3 className="text-xl font-medium">
+                <a
+                  href="https://www.nits.ac.in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  National Institute of Technology, Silchar
+                </a>
+                </h3>
               <div className="flex flex-col sm:flex-row sm:gap-4 mt-2">
                 <span className="text-sm text-zinc-300 inline-flex items-center">
                   <svg className="w-4 h-4 mr-1.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -161,7 +171,20 @@ export default function About() {
                   </div>
                   <div className="flex-grow">
                     <div className="flex items-start justify-between">
-                      <h3 className="text-xl font-medium">{exp.company}</h3>
+                        <h3
+                        className="text-xl font-medium cursor-pointer"
+                        onClick={() => window.open(exp.link, "_blank", "noopener,noreferrer")}
+                        tabIndex={0}
+                        role="button"
+                        aria-label={`Open ${exp.company} website`}
+                        onKeyDown={e => {
+                          if (e.key === "Enter" || e.key === " ") {
+                          window.open(exp.link, "_blank", "noopener,noreferrer");
+                          }
+                        }}
+                        >
+                        {exp.company}
+                        </h3>
                       <button 
                         onClick={() => toggleExpand(exp.id)} 
                         className="ml-2 p-2 rounded-full hover:bg-stone-800/50 transition-colors shrink-0 sm:hidden"

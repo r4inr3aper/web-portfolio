@@ -31,7 +31,7 @@ export default function Home() {
         <p className="mb-4 text-sm sm:text-base">
           I&apos;m a fullstack dev, student at{" "}
           <a
-            href="https://nits.ac.in/"
+            href="https://www.nits.ac.in/"
             className="text-white hover:opacity-80 transition-opacity underline"
           >
             NIT
