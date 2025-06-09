@@ -14,13 +14,13 @@ export default function Projects() {
         "/incand.png",
       imageAlt: "Screenshot of portfolio website homepage with dark theme",
       techStack: [
-        "NextJS",
+        "Next.js",
         "TailwindCSS",
         "Typescript",
-        "ExpressJS",
+        "Express.js",
         "MongoDB",
         "Prisma",
-        "NodeJS",
+        "Node.js",
         "Amazon S3",
         "Git",
       ],
@@ -56,14 +56,14 @@ export default function Projects() {
         "/tecnoesis.png",
       imageAlt: "AI chat application interface showing conversation",
       techStack: [
-        "NextJS",
+        "Next.js",
         "TailwindCSS",
         "Typescript",
         "GSAP",
-        "ExpressJS",
+        "Express.js",
         "MongoDB",
         "Prisma",
-        "NodeJS",
+        "Node.js",
         "Git",
       ],
       link: "https://tecnoesis-2024.pages.dev/",
@@ -89,6 +89,27 @@ export default function Projects() {
       github: "https://github.com/r4inr3aper/MERN-Chat-App",
       featured: false,
     },
+    {
+      id: 5,
+      name: "E-Cell NIT Silchar Official Website",
+      description:
+        "Developed a responsive and interactive website for the Entrepreneurship Cell of NIT Silchar, featuring event management and member profiles.",
+      image:
+        "/image.png",
+      imageAlt: "E-Cell NIT Silchar official website homepage",
+      techStack: [
+        "React.js",
+        "Redux",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Git",
+        "Node.js",
+      ],
+      link: "https://ecellnits.org/",
+      github: "https://github.com/r4inr3aper/e-cell-website-22",
+      featured: false,
+    },
   ];
 
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
@@ -109,7 +130,7 @@ export default function Projects() {
             onMouseEnter={() => setHoveredProject(project.id)}
             onMouseLeave={() => setHoveredProject(null)}
           >
-            <div className="relative w-full h-40 overflow-hidden">
+            <div className="relative w-full h-40 cursor-pointer overflow-hidden">
               <div className="absolute top-0 right-0 z-10 m-2">
                 {project.featured && (
                   <span className="px-2 py-0.5 bg-stone-800/80 text-xs rounded-md text-amber-400 border border-amber-500/30">

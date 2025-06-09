@@ -9,19 +9,13 @@ export default function Home() {
         <p className="mb-4 text-sm sm:text-base">
           22 y/o semicolon dev trying to build better web interfaces. taught by
           the web itself, I write typescript, I love mern stack but I use the{" "}
-          <a
-            href="https://create.t3.gg/"
-            className="text-white hover:opacity-80 transition-opacity underline"
-          >
+          <span className="text-white hover:opacity-80 transition-opacity underline cursor-pointer">
             t3-stack
-          </a>{" "}
+          </span>{" "}
           ~ cus{" "}
-          <a
-            href="https://twitter.com/theo"
-            className="text-white hover:opacity-80 transition-opacity underline"
-          >
+          <span className="text-white hover:opacity-80 transition-opacity underline cursor-pointer">
             theo
-          </a>{" "}
+          </span>{" "}
           said{" "}
           <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
             typesafety isn&apos;t optional
@@ -30,12 +24,9 @@ export default function Home() {
         </p>
         <p className="mb-4 text-sm sm:text-base">
           I&apos;m a fullstack dev, student at{" "}
-          <a
-            href="https://www.nits.ac.in/"
-            className="text-white hover:opacity-80 transition-opacity underline"
-          >
+          <span className="text-white hover:opacity-80 transition-opacity underline cursor-pointer">
             NIT
-          </a>
+          </span>
             , oasis fanboy, technical writer (when inspiration hits), shitposter,
             hackathon grinder and currently on{" "}
             <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
@@ -57,30 +48,21 @@ export default function Home() {
           I like minimalism and simplicity and I try to reflect that in my works
           as well. I often jam to music while working. Meaningful and deep
           lyrics is what I look for in songs. My all time fav artist is{" "}
-          <a
-            href="https://images.genius.com/c17eacd4676137d5780d7ec97b48d6d1.816x816x1.jpg"
-            className="text-white hover:opacity-80 transition-opacity underline"
-          >
+          <span className="text-white hover:opacity-80 transition-opacity underline cursor-pointer">
             Louis Tomlinson
-          </a>
+          </span>
           . Apart from this I also like playing FPS games like{" "}
-          <a
-            href="https://playvalorant.com"
-            className="text-white hover:opacity-80 transition-opacity underline"
-          >
+          <span className="text-white hover:opacity-80 transition-opacity underline cursor-pointer">
             VALORANT
-          </a>
+          </span>
           , lifting{" "}
           <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
             weights
           </mark>
           , clutching in Table Tennis and binge watching shows on{" "}
-          <a
-            href="https://netflix.com"
-            className="text-white hover:opacity-80 transition-opacity underline"
-          >
+          <span className="text-white hover:opacity-80 transition-opacity underline cursor-pointer">
             netflix
-          </a>
+          </span>
           .
         </p>
       </section>
@@ -96,14 +78,9 @@ export default function Home() {
               Last played
             </p>
             <p className="mb-0 leading-none text-sm sm:text-base">
-              <a
-                href="https://open.spotify.com/track/5NvOZCjZaGGGL597exlQWv?si=14699d9785be45a7"
-                target="_blank"
-                rel="noreferrer"
-                className="no-underline text-white hover:opacity-80 transition-opacity"
-              >
+              <span className="no-underline text-white hover:opacity-80 transition-opacity cursor-pointer">
                 Line Without a Hook // Montgomery Ricky
-              </a>
+              </span>
             </p>
           </div>
           <div className="w-20 h-20 bg-zinc-800/50 rounded-md overflow-hidden">
