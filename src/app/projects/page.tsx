@@ -48,7 +48,28 @@ export default function Projects() {
       featured: true,
     },
     {
-      id: 3,
+      "id": 3,
+      "name": "Inframe School Official Website",
+      "description": "Built a custom CMS from scratch for efficient content management, ensuring easy updates for admins. Optimized for performance, responsiveness and SEO.",
+      "image": "/inframe-school.png",
+      "imageAlt": "Inframe School homepage interface with custom CMS",
+      "techStack": [
+        "Next.js",
+        "TailwindCSS",
+        "Typescript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Vercel",
+        "Git"
+      ],
+      "link": "https://www.inframeschool.com/",
+      "github": "", 
+      "featured": false
+    },
+    {
+      id: 4,
       name: "Tecnoesis 2024 Official Website",
       description:
         "Tech fest site built for high traffic. Developed complex GSAP animations, integrated multiple APIs and handled 1M+ backend requests for a seamless user experience.",
@@ -71,7 +92,7 @@ export default function Projects() {
       featured: false,
     },
     {
-      id: 4,
+      id: 5,
       name: "MERN Stack Chat App",
       description:
         "Real-time chat application featuring single & group chats with admin-controlled chat rooms and user management.",
@@ -90,7 +111,7 @@ export default function Projects() {
       featured: false,
     },
     {
-      id: 5,
+      id: 6,
       name: "E-Cell NIT Silchar Official Website",
       description:
         "Developed a responsive and interactive website for the Entrepreneurship Cell of NIT Silchar, featuring event management and member profiles.",
