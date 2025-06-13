@@ -50,7 +50,7 @@ export default function Projects() {
     {
       "id": 3,
       "name": "Inframe School Official Website",
-      "description": "Built a custom CMS from scratch for efficient content management, ensuring easy updates for admins. Optimized for performance, responsiveness and SEO.",
+      "description": "Built a custom CMS from scratch for efficient content management, ensuring easy updates for admins.",
       "image": "/inframe-school.png",
       "imageAlt": "Inframe School homepage interface with custom CMS",
       "techStack": [
@@ -205,15 +205,17 @@ export default function Projects() {
                     View Live
                   </a>
                 )}
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-transparent text-xs font-medium text-zinc-300 relative no-underline duration-300 ease-in hover:bg-stone-800/80 border border-stone-700/30 mt-2"
-                >
-                  <Github size={12} />
-                  Code
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-transparent text-xs font-medium text-zinc-300 relative no-underline duration-300 ease-in hover:bg-stone-800/80 border border-stone-700/30 mt-2"
+                  >
+                    <Github size={12} />
+                    Code
+                  </a>
+                )}
               </div>
             </div>
           </div>
