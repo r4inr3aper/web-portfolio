@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧑‍💻 Web — Developer Portfolio
 
-## Getting Started
+This is the source code of my personal developer portfolio website, built using **Next.js (App Router)** and **Tailwind CSS** and deployed on **Vercel**. It showcases my work, skills, and online presence with clean design and smooth animations.
 
-First, run the development server:
+🌐 **Live Site:** [xbedanta.vercel.app](https://xbedanta.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide Icons
+- **Fonts:** GeneralSans
+- **Deployment:** Vercel / Netlify
+
+---
+
+## 📁 Project Structure
+
+```text
+portfoliox/
+├── app/                # App router structure (pages, layout, etc.)
+├── components/         # Reusable UI components
+├── public/             # Static assets (images, favicon, etc.)
+├── src/                # Source code (app, components, lib, etc.)
+│   ├── app/
+│   ├── components/
+│   └── lib/
+├── tailwind.config.ts  # Tailwind CSS configuration
+├── tsconfig.json       # TypeScript configuration
+├── package.json        # Project metadata and scripts
+└── ...                 # Other config files
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To run this project locally:
 
-## Learn More
+```bash
+# Clone the repository
+git clone https://github.com/r4inr3aper/web-portfolio.git
 
-To learn more about Next.js, take a look at the following resources:
+# Navigate to the project directory
+cd web-portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install dependencies (using bun, npm, or yarn)
+bun install
+# or
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Start the development server
+bun run dev
+# or
+npm run dev
+```
 
-## Deploy on Vercel
+The site will be available at [http://localhost:3000](http://localhost:3000).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 Available Scripts
+
+- `dev` — Start the development server
+- `build` — Build for production
+- `start` — Start the production server
+- `lint` — Lint and type-check the codebase
+- `format` — Format the codebase
+
+---
+
+## ✨ Features
+
+- Responsive, minimal UI
+- Animated page transitions ([`PageTransition`](src/components/animation/page-transition.tsx))
+- Dynamic navigation with active indicator ([`Header`](src/components/layout/header.tsx))
+- Project showcase with tech stack and links ([`Projects`](src/app/projects/page.tsx))
+- Contact form (Formspree integration, update with your Formspree ID)
+- Social links and resume download
+- Custom font ([`GeneralSans`](src/app/globals.css))
+- Dark mode ready
+
+---
+
+## 📄 Customization
+
+- **Projects:** Edit [`src/app/projects/page.tsx`](src/app/projects/page.tsx) to add or update your projects.
+- **Social Links:** Update links in [`src/app/page.tsx`](src/app/page.tsx) and [`src/app/contact/page.tsx`](src/app/contact/page.tsx).
+- **Contact Form:** Replace the Formspree action URL in [`src/app/contact/page.tsx`](src/app/contact/page.tsx) with your own Formspree endpoint.
+- **Profile Info:** Update your name, avatar, and bio in [`src/components/layout/header.tsx`](src/components/layout/header.tsx).
+
+---
+
+## 🖼️ Assets
+
+- Place your images in the [`public/`](public/) directory.
+- Update image paths in your project and profile sections.
+
+---
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide Icons](https://lucide.dev/)
+- [GeneralSans Font](https://github.com/zcreativelabs/GeneralSans)
+
+---
+
+> Made with ❤️ by [bedanta](https://github.com/r4inr3aper)
