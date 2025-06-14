@@ -1,5 +1,8 @@
 # 🧑‍💻 Web — Developer Portfolio
 
+![Website Preview](./ui.png)
+
+
 This is the source code of my personal developer portfolio website, built using **Next.js (App Router)** and **Tailwind CSS** and deployed on **Vercel**. It showcases my work, skills, and online presence with clean design and smooth animations.
 
 🌐 **Live Site:** [xbedanta.vercel.app](https://xbedanta.vercel.app)
