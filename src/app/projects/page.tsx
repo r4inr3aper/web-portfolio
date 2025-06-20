@@ -32,7 +32,7 @@ export default function Projects() {
       id: 2,
       name: "Flick",
       description:
-        "Fully functional e-commerce platform with payment integration, user authentication, and admin dashboard.",
+        "Fully functional e-commerce platform with user authentication, order management, promo code management and admin dashboard.",
       image:
         "/flick.png",
       imageAlt: "E-commerce platform product listing page",
@@ -44,6 +44,7 @@ export default function Projects() {
         "Git",
         "Node.js",
       ],
+      link: "https://flick-puce.vercel.app/",
       github: "https://github.com/r4inr3aper/Flick",
       featured: true,
     },
