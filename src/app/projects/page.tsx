@@ -132,6 +132,23 @@ export default function Projects() {
       github: "https://github.com/r4inr3aper/e-cell-website-22",
       featured: false,
     },
+    {
+      "id": 7,
+      "name": "Ulog – A Promise for Affinity",
+      "description": "Built a responsive, content-driven platform celebrating authentic Assamese heritage, featuring dynamic blog posts and rich media galleries.",
+      "image": "/ulog.png",
+      "imageAlt": "Homepage of Ulog – A Promise for Affinity",
+      "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Vercel",
+        "Git"
+      ],
+      "link": "https://ulog-five.vercel.app/",
+      "github": "https://github.com/r4inr3aper/ulog-heritage-collective",
+      "featured": false
+    }
   ];
 
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
