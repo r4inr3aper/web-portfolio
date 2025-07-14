@@ -3,19 +3,7 @@
 import { PageTransition } from "@/components/animation/page-transition";
 import { Toast } from "@/components/ui/toast";
 import { useState } from "react";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Contact Bedanta Kataki - Full Stack Developer",
-  description: "Get in touch with Bedanta Kataki. Full Stack Developer available for projects, collaborations, and opportunities. Contact via email or social media.",
-  keywords: [
-    "Contact Bedanta Kataki",
-    "Full Stack Developer Contact",
-    "Web Developer Contact",
-    "Bedanta Kataki Email",
-    "Portfolio Contact"
-  ],
-};
 
 export default function Contact() {
   const [formData, setFormData] = useState({

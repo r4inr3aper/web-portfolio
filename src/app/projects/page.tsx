@@ -1,24 +1,7 @@
 "use client";
 import { PageTransition } from "@/components/animation/page-transition";
-import type { Metadata } from "next";
 import { useState } from "react";
 import { ExternalLink, Github, Code } from "lucide-react";
-
-export const metadata: Metadata = {
-  title: "Projects by Bedanta Kataki - Full Stack Developer Portfolio",
-  description: "Explore Bedanta Kataki's projects showcasing full stack development skills. Web applications built with TypeScript, React, Node.js, and modern technologies.",
-  keywords: [
-    "Bedanta Kataki",
-    "Projects",
-    "Portfolio",
-    "Web Applications",
-    "Full Stack Development",
-    "TypeScript",
-    "React",
-    "Node.js",
-    "GitHub"
-  ],
-};
 
 export default function Projects() {
   const projects = [
