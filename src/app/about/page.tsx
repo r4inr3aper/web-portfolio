@@ -2,6 +2,24 @@
 import { useState } from "react";
 import { PageTransition } from "@/components/animation/page-transition";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Bedanta Kataki - Full Stack Developer | Experience & Skills",
+  description: "Learn more about Bedanta Kataki's experience, education at NIT Silchar, technical skills in TypeScript, React, Node.js, and professional background in full stack development.",
+  keywords: [
+    "Bedanta Kataki",
+    "About",
+    "Experience",
+    "Education",
+    "NIT Silchar",
+    "Skills",
+    "Full Stack Developer",
+    "TypeScript",
+    "React",
+    "Node.js"
+  ],
+};
 
 export default function About() {
   const [expandedExperiences, setExpandedExperiences] = useState<Record<string, boolean>>({});
@@ -31,8 +49,11 @@ export default function About() {
       "Git",
       "REST API",
       "GraphQL",
+      "Serverless",
+      "Docker",
       "AWS",
       "WebSockets",
+      "Vercel",
       "VS Code",
     ],
   };
@@ -46,11 +67,9 @@ export default function About() {
       logo: "/procurpal.png",
       description: "Worked on building an E-Auction Platform with Next.js, TypeScript and Node.js. Working on both frontend and backend systems, implementing database solutions and API integrations.",
       achievements: [
-        "Built and optimized dynamic dashboards and multi-step auction workflows using modern frontend frameworks.",
-        "Integrated key modules (eAuction, RFX, QSign) & implemented features like data export, filters and user authentication flows.",
-        "Improved performance and user experience of the RFX module (built with Serverless) by resolving routing issues, enhancing form validations, and refining module interactions.",
-        "Collaborated with design team to implement pixel-perfect UI/UX designs.",
-        "Participated in agile sprints, regularly presenting progress and collaborating with cross-functional teams to deliver project milestones."
+        "Developed dynamic dashboards for the eAuction module and integrated it into the existing RFX flow, enabling seamless multi-step auction workflows.",
+        "Integrated QSign Digital Signature API to provide legally binding e-signatures with robust audit trails and automated approval workflows.",
+        "Resolved bugs in the legacy RFX module and implemented WebSocket based real-time chat, improving responsiveness and overall user experience."
       ],
       link: "https://procurpal.in/"
     },
@@ -65,8 +84,6 @@ export default function About() {
         "Organized and led technical workshops like Web Blitz 4.0 with 200+ attendees.",
         "Led a development team, conducted code reviews and resolved front-end and back-end issues to ensure smooth project execution.",
         "Mentored junior members in web development and project management best practices.",
-        "Collaborated with cross-functional teams to plan and execute successful tech events and hackathons.",
-        "Editorial Team Member: Authored 15+ contents and invitations.",
       ],
       link: "https://gdscnits.in/"
     }
@@ -75,33 +92,31 @@ export default function About() {
   return (
     <PageTransition>
       {/* About Section */}
-      <section className="w-full flex flex-col justify-start p-4 lg:p-6 mb-10 bg-stone-900/10 backdrop-blur-sm rounded-xl">
-        <h2 className="text-xl sm:text-2xl font-medium mb-6">About ~</h2>
-        <div className="space-y-4">
-          <p className="text-sm sm:text-base leading-relaxed">
-            Crying over college assignments, trying to hit the gym consistently and
-            trying to get familiar with{" "}
-            <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
-              dsa
-            </mark>{" "}
-            and{" "}
-            <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
-              cpp (oops)
-            </mark>.
-          </p>
-          <p className="text-sm sm:text-base leading-relaxed">
-            I&apos;m confident enough with my web dev skills right now (still a noob
-            though). Lately, I’ve been fascinated by GenAI and experimenting with it to bring fresh ideas to life.
-          </p>
-          <p className="text-sm sm:text-base leading-relaxed">
-            Also exploring system design to build scalable apps and focusing on writing clean, production-level code.
-          </p>
-        </div>
+      <section className="w-full flex flex-col justify-start p-[0.4rem] mb-8">
+        <h2 className="text-xl sm:text-2xl font-medium mb-4">About ~</h2>
+        <p className="mb-4 text-sm sm:text-base">
+          Crying over college assignments, trying to hit the gym consistently and
+          trying to get familiar with{" "}
+          <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
+            dsa
+          </mark>{" "}
+          and{" "}
+          <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
+            cpp (oops)
+          </mark>.
+        </p>
+        <p className="mb-4 text-sm sm:text-base">
+          I&apos;m confident enough with my web dev skills right now (still a noob
+          though). Lately, I’ve been fascinated by GenAI and experimenting with it to bring fresh ideas to life.
+        </p>
+        <p className="mb-0 text-sm sm:text-base">
+          Also exploring system design to build scalable apps and focusing on writing clean, production-level code.
+        </p>
       </section>
 
       {/* Education Section */}
-      <section className="w-full p-4 lg:p-6 mb-10 bg-stone-900/10 backdrop-blur-sm rounded-xl">
-        <h2 className="text-xl sm:text-2xl font-medium mb-6">Education ~</h2>
+      <section className="w-full flex flex-col justify-start p-[0.4rem] mb-8">
+        <h2 className="text-xl sm:text-2xl font-medium mb-4">Education ~</h2>
         
         {/* Education Card */}
         <div 
@@ -150,8 +165,8 @@ export default function About() {
       </section>
 
       {/* Experience Section */}
-      <section className="w-full p-4 lg:p-6 mb-10 bg-stone-900/10 backdrop-blur-sm rounded-xl">
-        <h2 className="text-xl sm:text-2xl font-medium mb-6">Experience ~</h2>
+      <section className="w-full flex flex-col justify-start p-[0.4rem] mb-8">
+        <h2 className="text-xl sm:text-2xl font-medium mb-4">Experience ~</h2>
         
         {/* Experience Cards */}
         <div className="space-y-6">
@@ -246,8 +261,8 @@ export default function About() {
       </section>
 
       {/* Skills Section */}
-      <section className="w-full p-4 lg:p-6 bg-stone-900/10 backdrop-blur-sm rounded-xl">
-        <h2 className="text-xl sm:text-2xl font-medium mb-6">Skills ~</h2>
+      <section className="w-full flex flex-col justify-start p-[0.4rem] mb-8">
+        <h2 className="text-xl sm:text-2xl font-medium mb-4">Skills ~</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {Object.entries(skills).map(([category, skillList]) => (

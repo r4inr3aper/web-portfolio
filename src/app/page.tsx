@@ -1,5 +1,21 @@
 import { PageTransition } from "@/components/animation/page-transition";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bedanta Kataki - Full Stack Developer Portfolio | Home",
+  description: "Welcome to Bedanta Kataki's portfolio. Full Stack Developer and Electronics & Instrumentation student at NIT Silchar. Specializing in TypeScript, React, Node.js, and modern web technologies.",
+  keywords: [
+    "Bedanta Kataki",
+    "Full Stack Developer",
+    "Portfolio",
+    "NIT Silchar",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Web Development"
+  ],
+};
 
 export default function Home() {
   return (
