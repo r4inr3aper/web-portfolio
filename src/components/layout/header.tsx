@@ -84,10 +84,10 @@ export function Header() {
       <section className="w-full flex gap-4 justify-between mb-6 p-2">
         <div className="flex gap-4">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4D03AQGJ73od6BV4ow/profile-displayphoto-shrink_800_800/B4DZaXFO2fHwAc-/0/1746291464667?e=1752710400&v=beta&t=8OrR72_gLD5px8L9ize5ZEgpAfYkySx5I0QU1klVlzc"
+            src="./me.jpeg"
             alt="bedanta"
-            width={56}
-            height={56}
+            width={60}
+            height={60}
             className="rounded-full w-14 h-14 object-cover transition-transform hover:scale-105 duration-300"
           />
           <div className="flex flex-col gap-2 justify-center">
@@ -101,7 +101,7 @@ export function Header() {
         {/* Resume Button */}
         <div className="flex items-center">
           <a
-            href="https://drive.google.com/file/d/1VOPlxQSpbe4EhdgANfZC_ECnezeBI2Ju/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/15bivsiGDuSctgDFQa2wb06W-ExTvtBTQ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-2 px-3 py-2 bg-stone-800/80 hover:bg-stone-800/90 border border-stone-700/50 hover:border-stone-700/70 rounded-lg text-sm font-normal text-zinc-100 transition-all duration-300 hover:shadow-md no-underline"

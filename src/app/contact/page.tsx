@@ -73,7 +73,7 @@ export default function Contact() {
           <h2 className="text-xl sm:text-2xl font-medium">Contact ~</h2>
           <div className="flex items-center gap-1.5 bg-green-500/10 border border-green-500/20 px-2 py-1 rounded-full">
             <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-bounce"></div>
-            <span className="text-xs text-green-400 font-medium">LIVE</span>
+            <span className="text-xs text-green-400 font-medium ml-auto">let's collaborate</span>
           </div>
         </div>
         <p className="text-sm sm:text-base text-zinc-300">

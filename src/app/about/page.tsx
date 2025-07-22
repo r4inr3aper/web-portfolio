@@ -36,6 +36,8 @@ export default function About() {
       "AWS",
       "WebSockets",
       "Vercel",
+      "Power BI",
+      "MS Excel",
       "VS Code",
     ],
   };
@@ -74,25 +76,14 @@ export default function About() {
   return (
     <PageTransition>
       {/* About Section */}
-      <section className="w-full flex flex-col justify-start p-[0.4rem] mb-8">
+      <section className="w-full flex flex-col justify-start p-[0.4rem] mb-4">
         <h2 className="text-xl sm:text-2xl font-medium mb-4">About ~</h2>
         <p className="mb-4 text-sm sm:text-base">
-          Crying over college assignments, trying to hit the gym consistently and
-          trying to get familiar with{" "}
-          <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
-            dsa
-          </mark>{" "}
-          and{" "}
-          <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">
-            cpp (oops)
-          </mark>.
+          Full-stack developer specializing in robust, scalable web apps for high-traffic and complex use cases, with experience delivering platforms handling 1M+ API requests.
         </p>
         <p className="mb-4 text-sm sm:text-base">
-          I&apos;m confident enough with my web dev skills right now (still a noob
-          though). Lately, I’ve been fascinated by GenAI and experimenting with it to bring fresh ideas to life.
-        </p>
-        <p className="mb-0 text-sm sm:text-base">
-          Also exploring system design to build scalable apps and focusing on writing clean, production-level code.
+          Currently exploring {" "}
+          <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">GenAI</mark>{" "} and <mark className="text-[hsla(32,98%,83%,.9)] font-thin rounded">Agentic AI</mark>{" "} integration, along with improving DX through better tooling and workflows. I focus on clean architecture and creating applications that perform reliably at scale.
         </p>
       </section>
 
