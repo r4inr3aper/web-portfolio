@@ -96,7 +96,7 @@ export default function About() {
           className="border border-stone-800/90 p-6 rounded-lg bg-stone-900/30 hover:bg-stone-900/40 transition-all duration-300 shadow-md hover:shadow-lg"
           style={{ opacity: 1, transform: "none" }}
         >
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
+          <div className="flex items-start gap-4 mb-4">
             <div className="w-16 h-16 bg-white p-[4px] rounded-md overflow-hidden flex items-center justify-center shrink-0">
               <img
                 src="https://gyaanarth.com/wp-content/uploads/2022/09/logo.jpg"
@@ -104,22 +104,28 @@ export default function About() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="flex-grow">
-                <h3 className="text-xl font-medium">
-                <a
-                  href="https://www.nits.ac.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
+            <div className="flex-grow lg:pt-1">
+              <div className="flex items-start justify-between">
+                <h3 className="text-xl font-medium cursor-pointer"
+                  onClick={() => window.open('https://www.nits.ac.in', '_blank', 'noopener,noreferrer')}
+                  tabIndex={0}
+                  role="button"
+                  aria-label="Open National Institute of Technology, Silchar website"
+                  onKeyDown={e => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      window.open('https://www.nits.ac.in', '_blank', 'noopener,noreferrer');
+                    }
+                  }}
                 >
                   National Institute of Technology, Silchar
-                </a>
                 </h3>
+              </div>
               <div className="flex flex-col sm:flex-row sm:gap-4 mt-2">
-                <span className="text-sm text-zinc-300 inline-flex items-center">
-                  <svg className="w-4 h-4 mr-1.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <span className="text-sm text-zinc-300 inline-flex items-start md:items-center">
+                  <svg className="w-4 h-4 mr-1.5 mt-1 md:mt-0 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                   </svg>
-                  <span className="flex-shrink">B.Tech in Electronics and Instrumentation</span>
+                  B.Tech in Electronics and Instrumentation
                 </span>
                 <span className="text-sm text-zinc-300 inline-flex items-center mt-1 sm:mt-0">
                   <svg className="w-4 h-4 mr-1.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
