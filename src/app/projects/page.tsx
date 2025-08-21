@@ -48,27 +48,27 @@ export default function Projects() {
       github: "https://github.com/r4inr3aper/Flick",
       featured: true,
     },
-    {
-      "id": 3,
-      "name": "Inframe School Official Website",
-      "description": "Built a custom CMS from scratch for efficient content management, ensuring easy updates for admins.",
-      "image": "/inframe-school.png",
-      "imageAlt": "Inframe School homepage interface with custom CMS",
-      "techStack": [
-        "Next.js",
-        "TailwindCSS",
-        "Typescript",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "JWT",
-        "Vercel",
-        "Git"
-      ],
-      "link": "https://www.inframeschool.com/",
-      "github": "", 
-      "featured": false
-    },
+    // {
+    //   "id": 3,
+    //   "name": "Inframe School Official Website",
+    //   "description": "Built a custom CMS from scratch for efficient content management, ensuring easy updates for admins.",
+    //   "image": "/inframe-school.png",
+    //   "imageAlt": "Inframe School homepage interface with custom CMS",
+    //   "techStack": [
+    //     "Next.js",
+    //     "TailwindCSS",
+    //     "Typescript",
+    //     "Node.js",
+    //     "Express.js",
+    //     "MongoDB",
+    //     "JWT",
+    //     "Vercel",
+    //     "Git"
+    //   ],
+    //   "link": "https://www.inframeschool.com/",
+    //   "github": "", 
+    //   "featured": false
+    // },
     {
       id: 4,
       name: "Tecnoesis 2024 Official Website",
