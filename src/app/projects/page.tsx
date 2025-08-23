@@ -94,6 +94,46 @@ export default function Projects() {
     },
     {
       id: 5,
+      name: "Mood of NITS",
+      description:
+        "A platform for campus exit polls and election content sharing. Enables all users to participate in polls and contribute election-related posts.",
+      image: "/mood.png",
+      imageAlt: "Mood of NITS Homepage",
+      techStack: [
+        "Next.js",
+        "TailwindCSS",
+        "Typescript",
+        "Express.js",
+        "MongoDB",
+        "Prisma",
+        "Node.js",
+        "JWT",
+        "Git",
+      ],
+      link: "https://www.moodofnits.site/",
+      featured: false,
+    },
+    {
+      id: 6,
+      name: "Tecventures Landing Page",
+      description:
+        "Modern landing page for an agency to display their services, with a blog page for posting updates and articles.",
+      image: "/tecventures.png",
+      imageAlt: "Tecventures agency landing page screenshot",
+      techStack: [
+        "Next.js",
+        "TailwindCSS",
+        "Typescript",
+        "GSAP",
+        "FormSpree",
+        "Node.js",
+        "Git",
+      ],
+      link: "https://tecventures-frontend.vercel.app/",
+      featured: false,
+    },
+    {
+      id: 7,
       name: "MERN Stack Chat App",
       description:
         "Real-time chat application featuring single & group chats with admin-controlled chat rooms and user management.",
@@ -112,7 +152,7 @@ export default function Projects() {
       featured: false,
     },
     {
-      id: 6,
+      id: 8,
       name: "E-Cell NIT Silchar Official Website",
       description:
         "Developed a responsive and interactive website for the Entrepreneurship Cell of NIT Silchar, featuring event management and member profiles.",
@@ -133,7 +173,7 @@ export default function Projects() {
       featured: false,
     },
     {
-      "id": 7,
+      "id": 9,
       "name": "Ulog – A Promise for Affinity",
       "description": "Built a responsive, content-driven platform celebrating authentic Assamese heritage, featuring dynamic blog posts and rich media galleries.",
       "image": "/ulog.png",

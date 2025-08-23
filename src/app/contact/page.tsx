@@ -182,7 +182,7 @@ export default function Contact() {
               className="text-white hover:opacity-80 transition-opacity underline"
               target="_blank"
             >
-              @r4inr3aper
+              @xbedanta
             </a>
           </div>
           <div>
