@@ -110,6 +110,7 @@ export default function Projects() {
         "Git",
       ],
       link: "https://interview-ly.vercel.app/",
+      github: "https://github.com/r4inr3aper/Interview.ly",
       featured: false,
     },
     {
