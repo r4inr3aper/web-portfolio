@@ -48,27 +48,27 @@ export default function Projects() {
       github: "https://github.com/r4inr3aper/Flick",
       featured: true,
     },
-    // {
-    //   "id": 3,
-    //   "name": "Inframe School Official Website",
-    //   "description": "Built a custom CMS from scratch for efficient content management, ensuring easy updates for admins.",
-    //   "image": "/inframe-school.png",
-    //   "imageAlt": "Inframe School homepage interface with custom CMS",
-    //   "techStack": [
-    //     "Next.js",
-    //     "TailwindCSS",
-    //     "Typescript",
-    //     "Node.js",
-    //     "Express.js",
-    //     "MongoDB",
-    //     "JWT",
-    //     "Vercel",
-    //     "Git"
-    //   ],
-    //   "link": "https://www.inframeschool.com/",
-    //   "github": "", 
-    //   "featured": false
-    // },
+    {
+      "id": 3,
+      "name": "Inframe School Official Website",
+      "description": "Built a custom CMS from scratch for efficient content management, ensuring easy updates for admins.",
+      "image": "/inframe-school.png",
+      "imageAlt": "Inframe School homepage interface with custom CMS",
+      "techStack": [
+        "Next.js",
+        "TailwindCSS",
+        "Typescript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Vercel",
+        "Git"
+      ],
+      "link": "https://www.inframeschool.com/",
+      "github": "", 
+      "featured": false
+    },
     {
       id: 4,
       name: "Tecnoesis 2024 Official Website",
@@ -94,6 +94,26 @@ export default function Projects() {
     },
     {
       id: 5,
+      name: "Interview.ly",
+      description:
+        "An AI-powered mock-interview tool offering realistic practice, probing follow-ups and clear feedback to help you prepare smarter and land offers faster.",
+      image: "/interview.png",
+      imageAlt: "Interview.ly Homepage",
+      techStack: [
+        "Next.js",
+        "TailwindCSS",
+        "Typescript",
+        "Firebase",
+        "Gemini API",
+        "VAPI Agent",
+        "Node.js",
+        "Git",
+      ],
+      link: "https://interview-ly.vercel.app/",
+      featured: false,
+    },
+    {
+      id: 6,
       name: "Mood of NITS",
       description:
         "A platform for campus exit polls and election content sharing. Enables all users to participate in polls and contribute election-related posts.",
@@ -114,7 +134,7 @@ export default function Projects() {
       featured: false,
     },
     {
-      id: 6,
+      id: 7,
       name: "Tecventures Landing Page",
       description:
         "Modern landing page for an agency to display their services, with a blog page for posting updates and articles.",
@@ -133,7 +153,7 @@ export default function Projects() {
       featured: false,
     },
     {
-      id: 7,
+      id: 8,
       name: "MERN Stack Chat App",
       description:
         "Real-time chat application featuring single & group chats with admin-controlled chat rooms and user management.",
@@ -152,12 +172,12 @@ export default function Projects() {
       featured: false,
     },
     {
-      id: 8,
+      id: 9,
       name: "E-Cell NIT Silchar Official Website",
       description:
         "Developed a responsive and interactive website for the Entrepreneurship Cell of NIT Silchar, featuring event management and member profiles.",
       image:
-        "/image.png",
+        "/ecell.png",
       imageAlt: "E-Cell NIT Silchar official website homepage",
       techStack: [
         "React.js",
@@ -173,7 +193,7 @@ export default function Projects() {
       featured: false,
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Ulog – A Promise for Affinity",
       "description": "Built a responsive, content-driven platform celebrating authentic Assamese heritage, featuring dynamic blog posts and rich media galleries.",
       "image": "/ulog.png",
